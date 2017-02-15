@@ -1,3 +1,4 @@
+
 - name: Jeff Winger
   description: I teach law at Greendale, so believe me, I don't know much about law.
   title: Law Professor - Greendale
@@ -8,4 +9,12 @@
 
 - name: Jeff Winger
   description: There already was a rating system in place, it was called 'Cool People Get More,' and it was working fine.
+  title: Law Professor - Greendale
+
+- name: Jeff Winger
+  description: I teach law at Greendale, so believe me, I don't know much about law.
+  title: Law Professor - Greendale
+
+- name: Jeff Winger
+  description: I teach law at Greendale, so believe me, I don't know much about law.
   title: Law Professor - Greendale
