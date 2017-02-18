@@ -142,8 +142,9 @@ layout: default
                         <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
                         <h4>{{ treatment.title }}</h4>
 
-                        <p>
-                          <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{treatment.id}}-modal"> Saznaj viseqaaaa</a>
+                        <p class="text-justify">
+                          {{ treatment.excerpt }}
+                          <a data-toggle="modal" data-target="#{{treatment.id}}-modal"> Saznaj vise</a>
 
                           {% include modal.html id=treatment.id %}
                         </p>

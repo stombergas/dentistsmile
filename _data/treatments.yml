@@ -1,11 +1,12 @@
 - icon: icon-user-md
-  title: Invisible braces
-  id: "antiaging"
-  description: testdescription
+  title: Antiaging / Tretmani podmladjivanja
+  id: antiaging
+  excerpt: Hijaluronska kiselina je sastavni deo koze.Odgovorna je za elasticnost i potpornu funkiju. Proces starenja i spoljni uticaju utiču na to da se količina hijaluronske kiseline u organizmu vremenom smanjuje, što automatski utiče na izgled kože i pojavu bora – najpre na licu, a potom i na drugim delovima tela.
 
 - icon: icon-diamond
-  title: Cosmetic Dentistry
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  title: Decija Stomatologija
+  id: decija
+  excerpt:  Karijes je infektivno i lako prenosivo oboljenje izazvano specifičnom bakterijskom infekcijom. On se javlja rano, često ubrzo posle nicanja, kao posledica loših navika i neadekvatne ishrane. Pojavu karijesa u tom periodu potenciraju i određene teškoće u održavanju oralne higijene, kao i neobaveštenost roditelja
 
 - icon: icon-flask
   title: Stain removal
