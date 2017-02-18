@@ -8,7 +8,7 @@ logo_url: svg/min/drobnjaklogo.png
 # Hero
 hero:
     hero_img: hero.jpg
-    hero_title: Drobnjak Dent
+    hero_title: Drobnjak dent
     hero_description: Osmeh za sve generacije
 
 # Contact form
@@ -28,7 +28,7 @@ sunday: neradni dan
 
 # Testimonials
 testimonials:
-    testimonials_img: hero 2.jpg
+    testimonials_img: hero2.jpg
 
 # Map
 map:

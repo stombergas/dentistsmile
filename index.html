@@ -19,18 +19,18 @@ layout: default
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Zakažite pregled</h3>
             <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
                 <div class="form-field">
-                    <input name="name" type="text" placeholder="Name" required>
+                    <input name="name" type="text" placeholder="Ime i prezime" required>
                 </div>
                 <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Phone" required>
+                    <input name="phone" type="tel" placeholder="Telefon" required>
                 </div>
                 <div class="form-field">
                     <input name="email" type="email" placeholder="Email" required>
                 </div>
                 <div class="form-field">
-                    <textarea name="comments" placeholder="Message" required></textarea>
+                    <textarea name="comments" placeholder="Poruka" required></textarea>
                 </div>
-                <input type="submit" class="btn btn-default" value="Send">
+                <input type="submit" class="btn btn-default" value="Pošalji">
             </form>
         </div>
 
@@ -44,7 +44,7 @@ layout: default
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
         <h3>Kontaktirajte nas </h3>
         <ul>
-            {% if site.contact.phone %}<li><strong>Phone:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.phone %}<li><strong>Telefon:</strong> {{ site.contact.phone }}</li>{% endif %}
             {% if site.contact.emergency %}<li><strong>Emergency:</strong> {{ site.contact.emergency }}</li>{% endif %}
             {% if site.contact.email %}<li><strong>Email:</strong> {{ site.contact.email }}</li>{% endif %}
         </ul>
@@ -87,27 +87,27 @@ layout: default
         <div class="row">
             <div class="col-sm-6">
                 <h3>Dobrodošli</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <p>na stranicu naše posvećenosti Vama i zdravlju vaših zuba.</p>
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-heart"><use xlink:href="#icon-heart"></use></svg>
+                            <svg class="icon icon-heart"><use xlink:href="#icon-star"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Posvećenost pacijentima , kvalitet naših usluga i visokokvalitetni materijali vratiće sjaj vašem osmehu.</p>
                     </div>
                 </div>
 
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
-                            <svg class="icon icon-medkit"><use xlink:href="#icon-medkit"></use></svg>
+                            <svg class="icon icon-medkit"><use xlink:href="#icon-star"></use></svg>
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Naš edukativni i preventivni pristup stomatologiji , deci će pomoći da sa osmehom dolaze kod stomatologa.</p>
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Estetski i korektivni tretmani osvežiće Vaše lice.</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +133,7 @@ layout: default
 <!-- Start Treatments -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Usluge</h2>
+        <h2 class="section-title">Tretmani</h2>
 
         <div class="row">
             {% for treatment in site.data.treatments %}
@@ -143,10 +143,9 @@ layout: default
                         <h4>{{ treatment.title }}</h4>
 
                         <p>
-                          <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{treatment.modal}}-modal"> Saznaj viseqaaaa</a>
+                          <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#{{treatment.id}}-modal"> Saznaj viseqaaaa</a>
 
-                          {% capture foo %}{{ treatment.description}}{% endcapture %}
-                          {% include modal.html id=treatment.modal title='Amazing Video' body=foo %}
+                          {% include modal.html id=treatment.id %}
                         </p>
 
                     </div>

@@ -1,34 +1,19 @@
 - name: dr Julija Drobnjak
-  image: team.jpg
+  image: team1.jpg
   email: drobnjakjulija@gmail.com
   phone: 060 /
 
 - name: dr Stevan Kobilarov
-  image: team.jpg
+  image: team1.jpg
   email: email@gmail.com
   phone: 9659 43 21
 
 - name: dr Draženka
-  image: team.jpg
+  image: team1.jpg
   email: email@gmail.com
   phone: 9659 43 21
 
 - name: Jeff Winger
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Troy Barnes
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Annie
-  image: team.jpg
+  image: team1.jpg
   email: email@gmail.com
   phone: 9659 43 21
