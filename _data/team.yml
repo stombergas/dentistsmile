@@ -1,19 +1,19 @@
 - name: dr Julija Drobnjak
   image: team1.jpg
   email: drobnjakjulija@gmail.com
-  phone: 060 /
+  phone: 060 / 30 13 872
+
 
 - name: dr Stevan Kobilarov
   image: team1.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+  email:
+  phone:
 
 - name: dr Draženka
   image: team1.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Jeff Winger
+  email:
+  phone:
+- name: dr Bojana
   image: team1.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+  email:
+  phone:
