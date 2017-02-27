@@ -1,19 +1,19 @@
-- name: dr Julija Drobnjak
-  image: team1.jpg
+- name: <strong> dr Julija Drobnjak </strong>
+  image: julijaok.jpg
   email: drobnjakjulija@gmail.com
   phone: 060 / 30 13 872
 
-
-- name: dr Stevan Kobilarov
-  image: team1.jpg
+- name: <strong> Doc. dr Bojana Milekić <br> specijalista stomatološke protetike </strong>
+  image: bojanaok.jpg
   email:
   phone:
 
-- name: dr Draženka
-  image: team1.jpg
+- name: <strong> dr Stevan Kobilarov  <br>  specijalista ortopedije vilica </strong>
+  image: stevaok.jpg
   email:
   phone:
-- name: dr Bojana
-  image: team1.jpg
+
+- name: <strong> dr Draženka Petrović </strong>
+  image: drazenkaok.jpg
   email:
   phone:

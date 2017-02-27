@@ -42,7 +42,7 @@ layout: default
 <div class="three-shade-col">
     <div class="col-sm-4">
         <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Kontaktirajte nas </h3>
+        <h3><strong>Kontaktirajte nas</strong> </h3>
         <ul>
             {% if site.contact.phone %}<li><strong>Telefon ordinacija:</strong> {{ site.contact.phone }}</li>{% endif %}
             {% if site.contact.emergency %}<li><strong>Mobilni:</strong> {{ site.contact.emergency }}</li>{% endif %}
@@ -52,19 +52,19 @@ layout: default
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Radno vreme </h3>
+        <h3><strong>Radno vreme </strong></h3>
         <table>
             <tbody>
                 <tr>
-                    <td>Ponedeljak – Petak</td>
+                    <td><strong>Ponedeljak – Petak</strong></td>
                     <td>{{ site.monday_friday }}</td>
                 </tr>
                 <tr>
-                    <td>Subota</td>
+                    <td><strong>Subota</strong></td>
                     <td>{{ site.saturday }}</td>
                 </tr>
                 <tr>
-                    <td>Nedelja</td>
+                    <td><strong>Nedelja</strong></td>
                     <td>{{ site.sunday }}</td>
                 </tr>
             </tbody>
@@ -72,7 +72,7 @@ layout: default
     </div>
     <div class="col-sm-4">
         <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Adresa</h3>
+        <h3><strong>Adresa</strong></h3>
             <p>
                 {{ site.contact.address }}
             </p>
@@ -168,12 +168,7 @@ layout: default
                 <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
                 <h4>{{ member.name }}</h4>
             </div>
-            <div class="expandable-box-bottom">
-                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-                </a>
-                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
-                </a>
-            </div>
+
         </div>
     {% endfor %}
     </div>

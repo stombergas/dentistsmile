@@ -1,5 +1,5 @@
 # Site settings
-title: Drobnjak Dent | Dental Jekyll Theme
+title: Drobnjak Dent
 description: "A responsive Jekyll theme for dental clinics."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the name of your domain
@@ -8,23 +8,23 @@ logo_url: svg/min/drobnjaklogo.png
 # Hero
 hero:
     hero_img: hero.jpg
-    hero_title: Drobnjak dent
-    hero_description: Osmeh za sve generacije
+    hero_title: <strong>  Drobnjak dent </strong>
+    hero_description: <strong> Osmeh za sve generacije </strong>
 
 # Contact form
 api_token: # Enter API token here
 
 # Contact info
 contact:
-    phone: 021 / 30 15 5 15
-    emergency: 060 / 30 13 872
-    email: drobnjakjulija@gmail.com
-    address: Petra Drapšina 32/4  Novi Sad
+    phone: <strong> 021 / 30 15 5 15 </strong>
+    emergency: <strong> 060 / 30 13 872 </strong>
+    email: <strong> drobnjakjulija@gmail.com </strong>
+    address: <strong> Petra Drapšina 32/4  Novi Sad <br> I sprat </strong>
 
 # Opening hours
-monday_friday: 9:00 – 18:00
-saturday: 10:00 – 17:00
-sunday: neradni dan
+monday_friday: <strong> 9:00 – 18:00 </strong>
+saturday: <strong> 10:00 – 17:00 </strong>
+sunday: <strong> neradni dan </strong>
 
 # Testimonials
 testimonials:
