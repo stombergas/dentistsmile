@@ -22,9 +22,10 @@ contact:
     address: <strong> Petra Drapšina 32/4  Novi Sad <br> I sprat </strong>
 
 # Opening hours
-monday_friday: <strong> 9:00 – 18:00 </strong>
-saturday: <strong> 10:00 – 17:00 </strong>
-sunday: <strong> neradni dan </strong>
+monday_wednesday: <strong> 13:00 – 20:00 </strong>
+thursday_friday: <strong> 7:00 – 14:00 </strong>
+saturday: <strong> 8:00 - 13:00 </strong>
+sunday: <strong> Neradna </strong>
 
 # Testimonials
 testimonials:

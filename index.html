@@ -17,7 +17,7 @@ layout: default
 
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Pitajte stomatologa</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+            <form action="https://getsimpleform.com/messages?form_api_token=2d183425920a0063877e88a99ab84f42" method="post">
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Ime i prezime" required>
                 </div>
@@ -56,8 +56,12 @@ layout: default
         <table>
             <tbody>
                 <tr>
-                    <td><strong>Ponedeljak – Petak</strong></td>
-                    <td>{{ site.monday_friday }}</td>
+                    <td><strong>Ponedeljak – Sreda</strong></td>
+                    <td>{{ site.monday_wednesday }}</td>
+                </tr>
+                <tr>
+                    <td><strong>Četvrtak - Petak</strong></td>
+                    <td>{{ site.thursday_friday }}</td>
                 </tr>
                 <tr>
                     <td><strong>Subota</strong></td>
@@ -175,6 +179,25 @@ layout: default
 </div>
 <!-- End Our team -->
 
+<!-- Start Gallery2 -->
+<div id="gallery2" class="gallery">
+
+    <h2 class="section-title">Pre i posle tretmana</h2>
+
+    {% for images in site.data.gallery2 %}
+        <a href="{{ site.baseurl }}/img/gallery2/large/{{ images.image_large }}" class="gallery-item expandable-box image-link">
+            <div class="expandable-box-top">
+                <img src="{{ site.baseurl }}/img/gallery2/thumb/{{ images.image_thumb }}" alt="{{ images.image_alt }}">
+            </div>
+            <div class="expandable-box-bottom">
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+            </div>
+        </a>
+    {% endfor %}
+
+</div>
+<!-- End Gallery2 -->
+
 <!-- Start Testimonials -->
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
@@ -217,6 +240,8 @@ layout: default
 
 </div>
 <!-- End Gallery -->
+
+
 
 <!-- Start Map -->
 <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
