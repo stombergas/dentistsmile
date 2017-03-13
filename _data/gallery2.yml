@@ -1,23 +1,15 @@
-- image_thumb: 1.jpg
+- image_thumb: 13.jpg
   image_large: 1.jpg
   image_alt: something meaningful
 
-- image_thumb: 2.jpg
-  image_large: 2.jpg
-  image_alt: something meaningful
-
-- image_thumb: 3.jpg
+- image_thumb: 24.jpg
   image_large: 3.jpg
   image_alt: something meaningful
 
-- image_thumb: 4.jpg
-  image_large: 4.jpg
-  image_alt: something meaningful
-
-- image_thumb: 5.jpg
+- image_thumb: 56.jpg
   image_large: 5.jpg
   image_alt: something meaningful
 
-- image_thumb: 6.jpg
-  image_large: 6.jpg
+- image_thumb: 00.jpg
+  image_large: 0.jpg
   image_alt: something meaningful
