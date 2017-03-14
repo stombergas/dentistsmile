@@ -1,20 +1,20 @@
 
-- name: Jana
+- name: Mila Filipović
+  description: Osećam se mlađe i sigurnije posle anti-age tretmana
+  title: Preduzetnik
+
+- name: Ruža Milojević
+  description: Zadovoljna sam kvalitetom usluge i cenom.
+  title: Medicinska sestra u penziji - Štutgart
+
+- name: Jana III-3
   description: Moja zubarka je nasmejana i strpljiva.
-  title: III-3  O.Š Dositej Obradović
+  title:    O.Š Dositej Obradović
 
-- name: Jeff Winger
-  description: Let's do what people do. Let's get a house we can't afford and a dog that makes us angry.
-  title: Law Professor - Greendale
+- name: Dušan Ignjatović
+  description: Nadoknadio sam višegodišnje zanemarivanje zuba.Hvala
+  title: Beč
 
-- name: Jeff Winger
-  description: There already was a rating system in place, it was called 'Cool People Get More,' and it was working fine.
-  title: Law Professor - Greendale
-
-- name: Jeff Winger
-  description: I teach law at Greendale, so believe me, I don't know much about law.
-  title: Law Professor - Greendale
-
-- name: Jeff Winger
-  description: I teach law at Greendale, so believe me, I don't know much about law.
-  title: Law Professor - Greendale
+- name: Luka Nikolić
+  description: Dr.Drobnjak mi je vratila osmeh.Sve pohvale za strpljenje.
+  title: Ing.Informatike
