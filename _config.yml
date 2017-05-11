@@ -2,7 +2,7 @@
 title: Drobnjak Dent
 description: "A responsive Jekyll theme for dental clinics."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+url: "stomatolog-ns.com/" # the name of your domain
 logo_url: svg/min/drobnjaklogo.png
 
 # Hero

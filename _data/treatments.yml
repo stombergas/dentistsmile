@@ -39,7 +39,6 @@
   excerpt: Parodontopatija je najčešća hronična bolest kod čoveka.Ona zahvata ceo potporni aparat zuba u koji spadaju:gingiva,kost,cement korena zuba,parodontalni ligament.
             Jedinstvena je po svojoj etiologiji jer je izazvana bakterijama koje su normalni stanovnici usne supljine
 
-
 - icon: icon-diamond
   title: Plombe
   id: plombe
@@ -59,3 +58,8 @@
   title: Trudnoća i zubi
   id: trudnoca
   excerpt: Trudnoća je period kada treba obratiti posebnu pažnju na higijenu i zdravlje zuba i desni.Veoma je važno da posetite stomatologa pre trudnoće i otklonite svaki kvar, kao i da vodite računa o higijeni zuba tokom cele trudnoće.
+
+- icon: icon-diamond
+  title: Dentalni turizam
+  id: dentalni
+  excerpt: Komunikacija putem  e-maila se pokazala kao najbolji izbor u kontaktu sa našim timom. Praksa je da u mail-u pošaljete opis vašeg problema, želja, planova i pitanja. U sklopu mail-a obavezno je poslati i digitalni Ortopan snimak obe vilice da bi imali bolji uvid u analizi anatomskih strukura tj. stanja vaših zuba i kosti.
